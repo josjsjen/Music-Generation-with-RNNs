@@ -6,3 +6,6 @@ We will be using the MIDI music toolkit. Please run the following cell to confir
 ```bash
 pip install python-midi
 ```
+
+## Data Cleaning
+You can find in create_dataset.py and midi_manipulation.py for data cleaning.
