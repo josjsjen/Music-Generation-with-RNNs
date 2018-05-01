@@ -16,4 +16,4 @@ The dataset for this lab will be taken from the data/ folder. The dataset we hav
 The dataset is a list of np.arrays, one for each song. Each song should have the shape (song_length, num_possible_notes), where song_length >= min_song_length. The individual feature vectors of the notes in the song are processed into a one-hot encoding, meaning that they are binary vectors where one and only one entry is 1.
 
 ## Model
-You can find the details in mu
+You can find the details in music_rnn.py
