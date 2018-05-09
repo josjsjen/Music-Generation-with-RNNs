@@ -20,10 +20,6 @@ def create_dataset(min_length):
     return encoded_songs
 
 def make_one_hot_notes(song):
-    """
-    Makes the song one_hot by choosing the highest note 
-    from each chord (presumably the melody)
-    """
     new_song = np.zeros(song.shape)
     for i in range(len(song)):
         nonzeros = np.nonzero(song[i])
