@@ -1,5 +1,5 @@
 # Music Generation with RNNs
-Implementation of Recurrent Neural Network (RNN) for music generation.
+Implementation of Recurrent Neural Network (RNN) for music generation with TensorFlow API.
 
 We will be using the MIDI music toolkit. Please run the following cell to confirm that you have the midi package, which allows us to use the MIDI music tools in Python.
 
